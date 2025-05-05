@@ -6,7 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/AlexeyKravchenko42/todo-list/models"
+	"todo-list/models"
+
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
